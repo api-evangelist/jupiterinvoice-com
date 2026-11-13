@@ -1,4 +1,4 @@
-# jupiterinvoice-com
+# JupiterInvoice
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-jupiterinvoice-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://jupiterinvoice.com/
+JupiterInvoice is an independent invoicing tool built by PerfSpot LLC. It offers free, lightweight invoice creation, sharing via private links, and payment collection without requiring a user account. The platform includes templates, AI assistants, and a suite of related tools such as AcornRetain and JupiterSignup. It targets freelancers, agencies, and small businesses seeking a simple alternative to larger accounting suites.
+
+**Areas:** Company · invoicing · fintech · SaaS · free
+
+## JupiterInvoice on APIs.io
+
+Everything profiled for JupiterInvoice is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jupiterinvoice-com/](https://apis.io/providers/jupiterinvoice-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [JupiterInvoice Customers API](https://apis.io/apis/jupiterinvoice-com/jupiterinvoice-com-customers-api/) — The Customers API from JupiterInvoice — 2 operation(s) for customers.
+- [JupiterInvoice Invoices API](https://apis.io/apis/jupiterinvoice-com/jupiterinvoice-com-invoices-api/) — The Invoices API from JupiterInvoice — 4 operation(s) for invoices.
+- [JupiterInvoice Webhooks API](https://apis.io/apis/jupiterinvoice-com/jupiterinvoice-com-webhooks-api/) — The Webhooks API from JupiterInvoice — 3 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [JupiterInvoice Agentic Access](https://apis.io/agentic-access/jupiterinvoice-com/jupiterinvoice-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [Customer](https://apis.io/schemas/jupiterinvoice-com/jupiterinvoice-com-customer/)
+- [Invoice](https://apis.io/schemas/jupiterinvoice-com/jupiterinvoice-com-invoice/)
+- [Webhook](https://apis.io/schemas/jupiterinvoice-com/jupiterinvoice-com-webhook/)
+- [WebhookDelivery](https://apis.io/schemas/jupiterinvoice-com/jupiterinvoice-com-webhook-delivery/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Jupiterinvoice Com Context](https://apis.io/jsonld/jupiterinvoice-com/jupiterinvoice-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [JupiterInvoice API Rules](https://apis.io/rules/jupiterinvoice-com/jupiterinvoice-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [JupiterInvoice Authentication](https://apis.io/security/jupiterinvoice-com/jupiterinvoice-com-authentication/)
+- [JupiterInvoice Domain Security](https://apis.io/security/jupiterinvoice-com/jupiterinvoice-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [JupiterInvoice Plans Pricing](https://apis.io/plans/jupiterinvoice-com/jupiterinvoice-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jupiterinvoice.com/)
+- [Documentation](https://jupiterinvoice.com/guides/)
+- [API reference](https://jupiterinvoice.com/for/developers/)
+- [Pricing](https://jupiterinvoice.com/pricing)
+- [Blog](https://jupiterinvoice.com/blog/)
+
+## API Evangelist rating
+
+**Kin Score 45.8** — developing · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 42.6 |
+
+**Agent readiness 29.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jupiterinvoice-com/](https://apis.io/providers/jupiterinvoice-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JupiterInvoice: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jupiterinvoice-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
